@@ -1,0 +1,21 @@
+.post-container {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+}
+
+.post-container button {
+	border: 0px;
+	margin: 0px;
+}
+
+.post-info {
+	margin-left: 1rem;
+	width: 70%;
+}
+
+.post-description {
+	color: gray;
+}
