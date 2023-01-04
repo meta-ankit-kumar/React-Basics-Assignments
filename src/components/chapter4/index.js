@@ -1,0 +1,1 @@
+export { Chapter4 } from './chapter4.component';
