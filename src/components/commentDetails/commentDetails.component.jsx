@@ -2,7 +2,7 @@ import Comment from '@mui/icons-material/ModeComment';
 import './commentDetails.css';
 
 export const CommentDetails = ({ title, description }) => {
-	if (!title || !description) return (<div>Click on any comment.</div>)
+	if (!title || !description) return (<div className='title-bar'>Click on any comment.</div>)
 	return (
 		<div className='comment-details'>
 			<div className='title-bar'>
