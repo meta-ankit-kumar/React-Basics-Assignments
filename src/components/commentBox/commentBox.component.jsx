@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { CommentDetails } from '../commentDetails';
 import { CommentInfo } from '../commentInfo/commentInfo.component';
 import { COMMENTS_DATA } from '../utils/constants';
