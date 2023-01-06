@@ -6,6 +6,8 @@ export const Home = ({ setPage }) => {
 		<>
 			<h1 className='heading'>React Basics Goal</h1>
 			<button onClick={() => setPage(PAGE_NAMES.CHAPTER4)}>Chapter4</button>
+			<br></br>
+			<button onClick={() => setPage(PAGE_NAMES.CHAPTER5)}>Chapter5</button>
 		</>
 	);
 };
