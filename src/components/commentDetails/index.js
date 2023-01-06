@@ -1,0 +1,1 @@
+export { CommentDetails } from './commentDetails.component';

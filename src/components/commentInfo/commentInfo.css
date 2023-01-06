@@ -1,0 +1,21 @@
+.comment-info {
+	min-height: 40px;
+	text-align: center;
+	width: 100%;
+	border: 1px solid black;
+	padding-top: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.comment-info p {
+	display: inline;
+	text-align: unset;
+	padding-left: 1rem;
+	margin: 0px;
+}
+
+.comment-info:hover {
+	background-color: gray;
+}

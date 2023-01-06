@@ -1,0 +1,1 @@
+export { CommentBox } from './commentBox.component';

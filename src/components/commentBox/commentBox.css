@@ -1,0 +1,32 @@
+.comment-box {
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid black;
+	min-height: 20vh;
+	margin-top: 20px;
+}
+
+.comment-box-heading {
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+	background-color: rgba(128, 128, 128, 0.747);
+	height: 30px;
+	padding-top: 10px;
+}
+
+.comment-container {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.comment-section-left-side {
+	width: 40%;
+	height: 100%;
+}
+
+.comment-section-right-side {
+	box-sizing: border-box;
+	width: 60%;
+}
