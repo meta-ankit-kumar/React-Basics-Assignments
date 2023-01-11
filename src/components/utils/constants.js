@@ -1,7 +1,8 @@
 export const PAGE_NAMES = {
 	HOMEPAGE: 'homepage',
 	CHAPTER4: 'chapter4',
-	CHAPTER5: 'chapter5'
+	CHAPTER5: 'chapter5',
+	CHAPTER6: 'chapter6',
 }
 
 export const COMMENTS_DATA = [

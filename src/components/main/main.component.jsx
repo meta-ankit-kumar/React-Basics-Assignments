@@ -4,6 +4,7 @@ import { PAGE_NAMES } from '../utils/constants';
 import { Home } from '../home';
 import { Chapter4 } from '../chapter4';
 import { Chapter5 } from '../chapter5';
+import { Chapter6 } from '../chapter6';
 
 export const Main = () => {
 	const [page, setPage] = useState(PAGE_NAMES.HOMEPAGE);
@@ -19,6 +20,10 @@ export const Main = () => {
 		case PAGE_NAMES.CHAPTER5:
 			return (
 				<Chapter5/>
+			);
+		case PAGE_NAMES.CHAPTER6:
+			return (
+				<Chapter6/>
 			);
 		default:
 			return (
