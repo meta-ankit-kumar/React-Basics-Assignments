@@ -11,7 +11,6 @@ export const UserForm = () => {
 	const [userImage, setUserImage] = useState('');
 	const [isFormValid, setIsFormValid] = useState(false);
 	const handleFormSubmit = (event) => {
-		console.log('Handle form submit called');
 		setIsFormValid(true);
 	}
 	const clearFields = () => {
@@ -21,7 +20,7 @@ export const UserForm = () => {
 		setMail('');
 		setGender('');
 		setAddress('');
-		setUserImage('');
+		setUserImage('')
 		setIsFormValid(false);
 	}
 
@@ -67,7 +66,7 @@ export const UserForm = () => {
 							<div className='address-field'>
 								<textarea name="address" id="address" rows="5" value={address} onInput={(event) => setAddress(event.target.value)} required></textarea>
 							</div>
-							<input id="user-image" type="file" value={userImage && userImage[0].name} onChange={(event) => setUserImage(event.target.files)} required />
+							<input id="user-image" type="file" onChange={(event) => setUserImage(event.target.files)} required />
 							<div className='form-buttons'>
 								<input type="submit" value="Submit" />
 								<input type="button" value="Clear" onClick={() => clearFields()}/>
