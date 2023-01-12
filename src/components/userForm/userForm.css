@@ -1,11 +1,14 @@
 .user-form {
 	min-height: 30vh;
-	background-color: aqua;
 	width: 70%;
 	margin: 0 auto;
+	margin-top: 2rem;
 	display: flex;
 	justify-content: center;
-	padding-top: 10px;
+	border: 1px solid black;
+	box-shadow: 1px 0px 5px;
+	border-radius: 1%;
+	padding: 2rem;
 }
 
 .label-part {
@@ -37,4 +40,21 @@ input {
 	margin-left: 0.6rem;
 }
 
+#image-label {
+	margin-top: 4rem;
+}
+
+.form-buttons {
+	display: flex;
+	align-items: flex-start;
+}
+
+.form-data {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.user-image {
+	border-radius: 50%;
+}
 
