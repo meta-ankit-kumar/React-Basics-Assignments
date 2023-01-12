@@ -1,0 +1,60 @@
+.user-form {
+	min-height: 30vh;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	box-shadow: 1px 0px 5px;
+	border-radius: 1%;
+	padding: 2rem;
+}
+
+.label-part {
+	width: 40%;
+}
+
+.input-part {
+	width: 50%;
+}
+
+label {
+	display: block;
+	text-align: end;
+	margin-bottom: 0.5rem;
+}
+
+input {
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 0.3rem;
+}
+
+.gender-selection{
+	display: flex;
+    align-items: flex-start;
+}
+
+.address-field {
+	margin-left: 0.6rem;
+}
+
+#image-label {
+	margin-top: 4rem;
+}
+
+.form-buttons {
+	display: flex;
+	align-items: flex-start;
+}
+
+.form-data {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.user-image {
+	border-radius: 50%;
+}
+
