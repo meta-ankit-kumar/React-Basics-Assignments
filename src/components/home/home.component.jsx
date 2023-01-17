@@ -10,6 +10,8 @@ export const Home = ({ setPage }) => {
 			<button onClick={() => setPage(PAGE_NAMES.CHAPTER5)}>Chapter5</button>
 			<br></br>
 			<button onClick={() => setPage(PAGE_NAMES.CHAPTER6)}>Chapter6</button>
+			<br></br>
+			<button onClick={() => setPage(PAGE_NAMES.CHAPTER10)}>Chapter10</button>
 		</>
 	);
 };

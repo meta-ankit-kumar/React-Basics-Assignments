@@ -1,0 +1,1 @@
+import { TaskDetails } from './taskDetails.component';

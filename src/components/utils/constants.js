@@ -3,6 +3,7 @@ export const PAGE_NAMES = {
 	CHAPTER4: 'chapter4',
 	CHAPTER5: 'chapter5',
 	CHAPTER6: 'chapter6',
+	CHAPTER10: 'chapter10',
 }
 
 export const COMMENTS_DATA = [
@@ -50,4 +51,6 @@ export const POST_DATA = [
 		title: 'Post 5 title',
 		description: 'Post 5 description'
 	},
-]
+];
+
+export const TODO_DATA = [];

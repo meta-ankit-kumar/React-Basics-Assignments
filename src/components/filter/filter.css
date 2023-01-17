@@ -1,0 +1,17 @@
+.filter-container {
+	display: flex;
+	margin: 0px;
+	margin-left: 2rem;
+	font-weight: bold;
+	align-items: baseline;
+
+}
+
+.filter-buttons{
+	border: 0px;
+	border-radius: 1rem;
+}
+
+.set-active {
+	background-color: rgb(188, 211, 135);
+}

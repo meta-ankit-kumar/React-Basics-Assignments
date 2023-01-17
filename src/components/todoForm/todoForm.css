@@ -1,0 +1,86 @@
+.todo-form {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 2rem;
+	box-shadow: 0px 0px 2px;
+	min-height: 20vh;
+	padding-bottom: 1rem;
+}
+
+h4 {
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+input[type='text'], input[type='date'] {
+	width: 60%;
+	margin: 0 auto;
+	border: 0px;
+	outline: 0px;
+	border-bottom: 2px solid black;
+}
+
+.priority {
+	margin: 0px;
+	margin-top: 1rem;
+	margin-left: 20%;
+	display: block;
+}
+
+form {
+	position: relative;
+}
+
+.text-field label {
+	position: absolute;
+	/* font-weight: 200; */
+	margin-bottom: 1.2rem;
+}
+
+.text-field label:first-of-type {
+	top: -6px;
+	left: 20%;
+}
+
+.text-field label:last-of-type {
+	top: 30px;
+	left: 20%;
+}
+
+#task-due-date {
+	margin-top: 2rem;
+}
+
+.text-field input:focus + label {
+	left: 20%;
+	transition: 0.2s ease-in-out;
+}
+
+.text-field input:focus {
+	border-color: green;
+}
+
+.text-field  input:valid + label:first-of-type {
+	top: -26px;
+}
+
+.task-priority {
+	width: 63%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+input[type='submit'] {
+	margin: 0 auto;
+	margin-top: 1rem;
+	width: 30%;
+	margin-bottom: 3rem;
+}
+
+.todo-container {
+	display: flex;
+	height: 70vh;
+	align-items: center;
+	justify-content: center;
+}
