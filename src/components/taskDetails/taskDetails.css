@@ -1,0 +1,39 @@
+.task-details-container {
+	margin-left: 2rem;
+	margin-right: 1rem;
+	display: flex;
+	margin-top: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 0px 2px 1px;
+	border-radius: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	transition: height 0.2s;
+}
+
+.task-name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.task-due-date {
+	font-size: small;
+	font-weight: 200;
+}
+
+.task-content p{
+	margin-top: 0px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.completed{
+	text-decoration: line-through;
+}

@@ -1,0 +1,30 @@
+.task-heading {
+	margin-left: 2rem;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+.task-count {
+	margin-left: 2rem;
+	font-size: small;
+	font-weight: 200;
+}
+
+.task-head-separator {
+	margin-left: 2rem;
+}
+
+p {
+	margin-bottom: 0.5rem
+}
+
+.header {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-new-task {
+	margin-right: 2rem;
+	padding-top: 1rem;
+}

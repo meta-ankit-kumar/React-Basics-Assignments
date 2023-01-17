@@ -5,25 +5,30 @@ import { Home } from '../home';
 import { Chapter4 } from '../chapter4';
 import { Chapter5 } from '../chapter5';
 import { Chapter6 } from '../chapter6';
+import { Chapter10 } from '../chapter10';
 
 export const Main = () => {
 	const [page, setPage] = useState(PAGE_NAMES.HOMEPAGE);
 	switch (page) {
 		case PAGE_NAMES.HOMEPAGE:
 			return (
-				<Home setPage={setPage}/>
+				<Home setPage={setPage} />
 			);
 		case PAGE_NAMES.CHAPTER4:
 			return (
-				<Chapter4/>
+				<Chapter4 />
 			);
 		case PAGE_NAMES.CHAPTER5:
 			return (
-				<Chapter5/>
+				<Chapter5 />
 			);
 		case PAGE_NAMES.CHAPTER6:
 			return (
-				<Chapter6/>
+				<Chapter6 />
+			);
+		case PAGE_NAMES.CHAPTER10:
+			return (
+				<Chapter10 />
 			);
 		default:
 			return (
